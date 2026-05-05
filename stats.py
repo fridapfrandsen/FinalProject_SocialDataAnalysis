@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the combined dataset
-df = pd.read_csv("/Users/karenstentoft/Desktop/Social Data/Final projekt/world_happiness_combined.csv")
+df = pd.read_csv("Data/world_happiness_combined.csv")
 
 # Convert numeric columns (some may be read as strings)
 numeric_cols = ['Rank', 'Happiness Score', 'GDP per Capita', 'Social Support',
